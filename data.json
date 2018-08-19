@@ -1,0 +1,47 @@
+{
+  "basics":{
+    "name":"sai kumar",
+    "role":"mean-stack",
+    "mobile":"+91 9234567890",
+    "email":"luckkylakshmi7@gmail.com"
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+
+  },
+  "education":[
+    {
+      "degree":"B-Tech(Computer Science & Engineering)",
+      "institute":"chalapathi",
+      "data":["2016-20","85%"]
+    },
+    {
+    "degree":"Intermediate(MPC)",
+    "institute":"Vasavi",
+    "data":["2014-16","85%"]
+  },
+  {
+    "degree":"S.S.C",
+    "institute":"st.Johns",
+    "data":["2014","85%"]
+  }
+],
+"skills":[
+  {
+    "title":"Programming Languages",
+     "content":["python","c","c++","java","R"]
+  },
+  {
+    "title":"Data Bases",
+     "content":["SQL","Oracle","mySql"]
+  },
+  {
+    "title":"Web Technologies",
+     "content":["HTML","XML","JavaScript","Css"]
+  },
+  {
+    "title":"Operating Systems",
+     "content":["Linux","Unix","Windows","TurboC"]
+  }
+]
+}

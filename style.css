@@ -1,0 +1,159 @@
+table{
+  width:100%;
+  border-collapse: collapse;
+
+  }
+  tr:nth-child(even){
+    background:#ddd;
+    }
+    td,
+    th{
+      padding:1%;
+    }
+    .skDiv{
+      width:100%;
+      border-left: 3px solid #3336FF;
+      padding: 1%;
+      margin: 1%;
+      
+
+        }
+ span{
+   background: #3336FF;
+   color: #fff;
+   border:1px solid #082D6E;
+   box-shadow: 3px 3px 3px #ddd;
+   margin: 1%;
+   padding: 1%;
+   border-radius: 5px;
+ }
+
+    .parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child1{
+  width: 100%;
+  background: orange;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #ddd;
+  padding: 2%;
+  margin:2%;
+  border:  2px solid blue;
+
+}
+.child2{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #ddd;
+  padding: 2%;
+  margin:2%;
+  border:  2px solid blue;
+  background: pink;
+}
+img{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border:2px solid blue;
+  border-radius: 50%;
+}
+h2{
+  text-align: center;
+  color: blue;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+}
+/*small screens*/
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .child1{
+    width: 100%;
+    background: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+
+  }
+  .child2{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+    background:green;
+  }
+  *{
+    font-size: 35px;
+  }
+}
+/*medium screens*/
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .child1{
+    width: 100%;
+    background: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+
+  }
+  .child2{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+    background: pink;
+  }
+}
+/*Large screens*/
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .child1{
+    width: 100%;
+    background: orange;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+
+  }
+  .child2{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 2%;
+    margin:2%;
+    border:  2px solid blue;
+    background: skyblue;
+  }
+
+}
